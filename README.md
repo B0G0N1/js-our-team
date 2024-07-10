@@ -23,3 +23,22 @@ Barbara Ramos - Graphic Designer - barbara-ramos-graphic-designer.jpg
 E ricordiamoci che console.log() è nostro amico!
 Buon lavoro!
 P.s. In allegato trovate un esempio di layout e le immagini da utilizzare
+
+
+
+<!-------------------
+    PSEUDO-CODICE
+-------------------->
+1. Creare l'array di oggetti (Milestone 0)
+   1.1. team = [ { nome, ruolo, foto }, ... ]
+
+2. Stampare su console (Milestone 1)
+   2.1. for each membro in team:
+        2.1.1. console.log(membro.nome, membro.ruolo, membro.foto)
+
+3. Stampare su DOM come stringhe (Milestone 2)
+   3.1. teamContainer = document.getElementById("team-container")
+   3.2. for each membro in team:
+        3.2.1. p = createElement("p")
+        3.2.2. p.textContent = membro.nome + ", " + membro.ruolo + ", " + membro.foto
+        3.2.3. teamContainer.appendChild(p)
