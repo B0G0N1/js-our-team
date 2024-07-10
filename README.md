@@ -33,7 +33,7 @@ P.s. In allegato trovate un esempio di layout e le immagini da utilizzare
    1.1. team = [ { nome, ruolo, foto }, ... ]
 
 2. Stampare su console (Milestone 1)
-   2.1. for each membro in team:
+   2.1. for i = 0 < team.lenght:
         2.1.1. console.log(membro.nome, membro.ruolo, membro.foto)
 
 3. Stampare su DOM come stringhe (Milestone 2)
