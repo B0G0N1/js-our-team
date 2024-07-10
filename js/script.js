@@ -31,4 +31,11 @@ const team = [
         foto: "barbara-ramos-graphic-designer.jpg"
     }
 ];
-console.log(team);
+
+
+// MILESTONE 1: Stampo su console gli oggetti con le info
+for (var i = 0; i < team.length; i++) {
+    var member = team[i];
+    console.log(`\nOggetto ${[i + 1]}`);
+    console.log(`Nome: ${member.nome}\nRuolo: ${member.ruolo}\nFoto: ${member.foto}`);
+}
